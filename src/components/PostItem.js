@@ -4,7 +4,7 @@ import MediaView from '../Elements/MediaView';
 import LikeButton from '../Elements/LikeButton';
 import Card from '../Elements/Card';
 
-const PostItem = ({post}) => {
+const PostItem = ({post, onLike}) => {
   return (
     <Card style={styles.cardContainer}>
       <MediaView media={post.media} />
@@ -12,7 +12,11 @@ const PostItem = ({post}) => {
       <Text style={styles.description} numberOfLines={2}>
         {post.description}
       </Text>
-      <LikeButton postId={post.id} likes={post.likes} />
+      <LikeButton
+        likes={post.likes}
+        liked={post.liked}
+        onClick={() => onLike(post.id)}
+      />
     </Card>
   );
 };

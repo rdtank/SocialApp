@@ -2,12 +2,9 @@ import React, {useState} from 'react';
 import {TouchableOpacity, Text, View, StyleSheet} from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
-const LikeButton = ({postId, likes}) => {
-  const [liked, setLiked] = useState(false);
-
+const LikeButton = ({likes, liked, onClick}) => {
   const toggleLike = () => {
-    setLiked(!liked);
-    // Implement like/dislike logic using Redux actions
+    onClick();
   };
 
   return (
