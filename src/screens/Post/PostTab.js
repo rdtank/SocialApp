@@ -4,7 +4,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import PostItem from '../../components/PostItem';
 import {POST} from '../../utils/Constants';
 
-const PostTab = () => {
+const PostTab = ({navigation}) => {
   const [posts, setPosts] = useState(POST);
 
   const updateLikeCount = id => {
@@ -23,6 +23,10 @@ const PostTab = () => {
     setPosts(updatedPost);
   };
 
+  const onCreatePost = () => {
+    navigation.navigate('Create');
+  };
+
   return (
     <View style={styles.container}>
       <FlatList
@@ -33,7 +37,7 @@ const PostTab = () => {
         )}
       />
       <View style={styles.bottomIconContiner}>
-        <TouchableOpacity style={styles.addButton}>
+        <TouchableOpacity style={styles.addButton} onPress={onCreatePost}>
           <Ionicons name="add" size={35} color="#fff" />
         </TouchableOpacity>
       </View>
