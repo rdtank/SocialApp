@@ -70,11 +70,10 @@ const styles = StyleSheet.create({
   modalImage: {
     height: 400,
     width: 400,
-    marginBottom: 15,
+    marginBottom: 100,
   },
   closeIcon: {
     alignItems: 'center',
-    justifyContent: 'center',
     backgroundColor: '#fff',
     padding: 15,
     borderRadius: 30,

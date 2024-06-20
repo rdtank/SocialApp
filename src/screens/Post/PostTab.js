@@ -12,10 +12,10 @@ const POST = [
       'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto',
     likes: 23,
     media: [
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
+      'https://picsum.photos/id/15/200/200',
+      'https://picsum.photos/id/41/200/200',
+      'https://picsum.photos/id/256/200/200',
+      'https://picsum.photos/id/90/200/200',
     ],
   },
   {
@@ -25,10 +25,10 @@ const POST = [
       'est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla',
     likes: 23,
     media: [
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
+      'https://picsum.photos/id/13/200/200',
+      'https://picsum.photos/id/56/200/200',
+      'https://picsum.photos/id/48/200/200',
+      'https://picsum.photos/id/230/200/200',
     ],
   },
   {
@@ -38,8 +38,8 @@ const POST = [
       'et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut',
     likes: 23,
     media: [
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
+      'https://picsum.photos/id/84/200/200',
+      'https://picsum.photos/id/30/200/200',
     ],
   },
   {
@@ -49,9 +49,9 @@ const POST = [
       'ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit',
     likes: 23,
     media: [
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
+      'https://picsum.photos/id/127/200/200',
+      'https://picsum.photos/id/43/200/200',
+      'https://picsum.photos/id/91/200/200',
     ],
   },
   {
@@ -68,7 +68,7 @@ const POST = [
     description:
       'ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae',
     likes: 23,
-    media: ['https://picsum.photos/seed/picsum/200/200'],
+    media: ['https://picsum.photos/id/10/200/200'],
   },
   {
     id: 7,
@@ -77,10 +77,10 @@ const POST = [
       'dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas',
     likes: 23,
     media: [
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
+      'https://picsum.photos/id/55/200/200',
+      'https://picsum.photos/id/97/200/200',
+      'https://picsum.photos/id/221/200/200',
+      'https://picsum.photos/id/84/200/200',
     ],
   },
   {
@@ -90,8 +90,8 @@ const POST = [
       'dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae',
     likes: 23,
     media: [
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
+      'https://picsum.photos/id/89/200/200',
+      'https://picsum.photos/id/38/200/200',
     ],
   },
   {
@@ -101,9 +101,9 @@ const POST = [
       'consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas',
     likes: 23,
     media: [
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
+      'https://picsum.photos/id/81/200/200',
+      'https://picsum.photos/id/77/200/200',
+      'https://picsum.photos/id/92/200/200',
     ],
   },
   {
@@ -113,8 +113,8 @@ const POST = [
       'quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error',
     likes: 23,
     media: [
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
+      'https://picsum.photos/id/250/200/200',
+      'https://picsum.photos/id/132/200/200',
     ],
   },
   {
@@ -132,10 +132,10 @@ const POST = [
       'itaque id aut magnam\npraesentium quia et ea odit et ea voluptas et\nsapiente quia nihil amet occaecati quia id voluptatem\nincidunt ea est distinctio odio',
     likes: 23,
     media: [
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
+      'https://picsum.photos/id/22/200/200',
+      'https://picsum.photos/id/59/200/200',
+      'https://picsum.photos/id/189/200/200',
+      'https://picsum.photos/id/77/200/200',
     ],
   },
   {
@@ -145,9 +145,9 @@ const POST = [
       'aut dicta possimus sint mollitia voluptas commodi quo doloremque\niste corrupti reiciendis voluptatem eius rerum\nsit cumque quod eligendi laborum minima\nperferendis recusandae assumenda consectetur porro architecto ipsum ipsam',
     likes: 23,
     media: [
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
+      'https://picsum.photos/id/55/200/200',
+      'https://picsum.photos/id/233/200/200',
+      'https://picsum.photos/id/182/200/200',
     ],
   },
   {
@@ -157,8 +157,8 @@ const POST = [
       'fuga et accusamus dolorum perferendis illo voluptas\nnon doloremque neque facere\nad qui dolorum molestiae beatae\nsed aut voluptas totam sit illum',
     likes: 23,
     media: [
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
+      'https://picsum.photos/id/145/200/200',
+      'https://picsum.photos/id/87/200/200',
     ],
   },
   {
@@ -168,10 +168,10 @@ const POST = [
       'reprehenderit quos placeat\nvelit minima officia dolores impedit repudiandae molestiae nam\nvoluptas recusandae quis delectus\nofficiis harum fugiat vitae',
     likes: 23,
     media: [
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
-      'https://picsum.photos/seed/picsum/200/200',
+      'https://picsum.photos/id/99/200/200',
+      'https://picsum.photos/id/73/200/200',
+      'https://picsum.photos/id/129/200/200',
+      'https://picsum.photos/id/277/200/200',
     ],
   },
 ];

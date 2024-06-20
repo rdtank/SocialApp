@@ -1,11 +1,8 @@
 import React from 'react';
 import {TouchableOpacity, Text, StyleSheet} from 'react-native';
 
-const FollowButton = ({userId, isFollowing}) => {
-  const toggleFollow = () => {
-    // Implement follow/unfollow logic using Redux actions
-  };
-
+const FollowButton = ({userId, isFollowing, onClick}) => {
+  const toggleFollow = () => onClick();
   return (
     <TouchableOpacity
       onPress={toggleFollow}

@@ -1,5 +1,5 @@
 import {FlatList, StyleSheet, Text, View} from 'react-native';
-import React from 'react';
+import React, {useState} from 'react';
 import UserListItem from '../../components/UserListItem';
 
 const PEOPLE = [
@@ -86,12 +86,30 @@ const PEOPLE = [
 ];
 
 const PeopleTab = () => {
+  const [peopleList, setPeopleList] = useState(PEOPLE);
+
+  const followButtonHandler = user => {
+    let data = peopleList.map(item => {
+      if (item?.id === user?.id) {
+        item.isFollowing = !user.isFollowing;
+      }
+      return item;
+    });
+
+    setPeopleList(data);
+  };
+
   return (
     <View style={styles.container}>
       <FlatList
-        data={PEOPLE}
+        data={peopleList}
         keyExtractor={item => item.id.toString()}
-        renderItem={({item}) => <UserListItem user={item} />}
+        renderItem={({item}) => (
+          <UserListItem
+            user={item}
+            followButtonHandler={() => followButtonHandler(item)}
+          />
+        )}
       />
     </View>
   );

@@ -2,11 +2,15 @@ import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import FollowButton from '../Elements/FollowButton';
 
-const UserListItem = ({user}) => {
+const UserListItem = ({user, followButtonHandler}) => {
   return (
     <View key={user.id} style={styles.continer}>
       <Text style={styles.username}>{user.name}</Text>
-      <FollowButton userId={user.id} isFollowing={user.isFollowing} />
+      <FollowButton
+        userId={user.id}
+        isFollowing={user.isFollowing}
+        onClick={followButtonHandler}
+      />
     </View>
   );
 };
